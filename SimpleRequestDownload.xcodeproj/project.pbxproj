@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACFAACFE12CC2CB3000D7C17 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFAACFD12CC2CB3000D7C17 /* Cocoa.framework */; };
+		ACFAAD0312CC2CB3000D7C17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACFAAD0112CC2CB3000D7C17 /* InfoPlist.strings */; };
+		ACFAAD0512CC2CB3000D7C17 /* SimpleRequestDownload-main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFAAD0412CC2CB3000D7C17 /* SimpleRequestDownload-main.m */; };
+		ACFAAD0812CC2CB3000D7C17 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFAAD0612CC2CB3000D7C17 /* MainMenu.xib */; };
+		ACFAAD0B12CC2CB3000D7C17 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ACFAAD0912CC2CB3000D7C17 /* Credits.rtf */; };
+		ACFAAD0E12CC2CB3000D7C17 /* SimpleRequestDownloadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFAAD0D12CC2CB3000D7C17 /* SimpleRequestDownloadAppDelegate.m */; };
+		ACFAAD1612CCA9D1000D7C17 /* SimpleRequestDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFAAD1512CCA9D1000D7C17 /* SimpleRequestDownload.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACFAACFA12CC2CB3000D7C17 /* SimpleRequestDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRequestDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFAACFD12CC2CB3000D7C17 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ACFAACFF12CC2CB3000D7C17 /* SimpleRequestDownload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRequestDownload-Info.plist"; sourceTree = "<group>"; };
+		ACFAAD0012CC2CB3000D7C17 /* SimpleRequestDownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleRequestDownload-Prefix.pch"; sourceTree = "<group>"; };
+		ACFAAD0212CC2CB3000D7C17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACFAAD0412CC2CB3000D7C17 /* SimpleRequestDownload-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SimpleRequestDownload-main.m"; sourceTree = "<group>"; };
+		ACFAAD0712CC2CB3000D7C17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACFAAD0A12CC2CB3000D7C17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ACFAAD0C12CC2CB3000D7C17 /* SimpleRequestDownloadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleRequestDownloadAppDelegate.h; sourceTree = "<group>"; };
+		ACFAAD0D12CC2CB3000D7C17 /* SimpleRequestDownloadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRequestDownloadAppDelegate.m; sourceTree = "<group>"; };
+		ACFAAD1412CCA9D1000D7C17 /* SimpleRequestDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRequestDownload.h; sourceTree = "<group>"; };
+		ACFAAD1512CCA9D1000D7C17 /* SimpleRequestDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRequestDownload.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFAACF712CC2CB3000D7C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFAACFE12CC2CB3000D7C17 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFAACEB12CC2CB2000D7C17 = {
+			isa = PBXGroup;
+			children = (
+				ACFAACF212CC2CB3000D7C17 /* Classes */,
+				ACFAACF312CC2CB3000D7C17 /* Other Sources */,
+				ACFAACF412CC2CB3000D7C17 /* Resources */,
+				ACFAACF512CC2CB3000D7C17 /* Frameworks */,
+				ACFAACFB12CC2CB3000D7C17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFAACF212CC2CB3000D7C17 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAAD1412CCA9D1000D7C17 /* SimpleRequestDownload.h */,
+				ACFAAD1512CCA9D1000D7C17 /* SimpleRequestDownload.m */,
+				ACFAAD0C12CC2CB3000D7C17 /* SimpleRequestDownloadAppDelegate.h */,
+				ACFAAD0D12CC2CB3000D7C17 /* SimpleRequestDownloadAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ACFAACF312CC2CB3000D7C17 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAAD0012CC2CB3000D7C17 /* SimpleRequestDownload-Prefix.pch */,
+				ACFAAD0412CC2CB3000D7C17 /* SimpleRequestDownload-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		ACFAACF412CC2CB3000D7C17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAACFF12CC2CB3000D7C17 /* SimpleRequestDownload-Info.plist */,
+				ACFAAD0112CC2CB3000D7C17 /* InfoPlist.strings */,
+				ACFAAD0612CC2CB3000D7C17 /* MainMenu.xib */,
+				ACFAAD0912CC2CB3000D7C17 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ACFAACF512CC2CB3000D7C17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAACFD12CC2CB3000D7C17 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACFAACFB12CC2CB3000D7C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAACFA12CC2CB3000D7C17 /* SimpleRequestDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFAACF912CC2CB3000D7C17 /* SimpleRequestDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFAAD1112CC2CB3000D7C17 /* Build configuration list for PBXNativeTarget "SimpleRequestDownload" */;
+			buildPhases = (
+				ACFAACF612CC2CB3000D7C17 /* Sources */,
+				ACFAACF712CC2CB3000D7C17 /* Frameworks */,
+				ACFAACF812CC2CB3000D7C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRequestDownload;
+			productName = SimpleRequestDownload;
+			productReference = ACFAACFA12CC2CB3000D7C17 /* SimpleRequestDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFAACED12CC2CB2000D7C17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Alexandre Cassagne";
+			};
+			buildConfigurationList = ACFAACF012CC2CB2000D7C17 /* Build configuration list for PBXProject "SimpleRequestDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACFAACEB12CC2CB2000D7C17;
+			productRefGroup = ACFAACFB12CC2CB3000D7C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFAACF912CC2CB3000D7C17 /* SimpleRequestDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFAACF812CC2CB3000D7C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFAAD0312CC2CB3000D7C17 /* InfoPlist.strings in Resources */,
+				ACFAAD0812CC2CB3000D7C17 /* MainMenu.xib in Resources */,
+				ACFAAD0B12CC2CB3000D7C17 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFAACF612CC2CB3000D7C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFAAD0512CC2CB3000D7C17 /* SimpleRequestDownload-main.m in Sources */,
+				ACFAAD0E12CC2CB3000D7C17 /* SimpleRequestDownloadAppDelegate.m in Sources */,
+				ACFAAD1612CCA9D1000D7C17 /* SimpleRequestDownload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACFAAD0112CC2CB3000D7C17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFAAD0212CC2CB3000D7C17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACFAAD0612CC2CB3000D7C17 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFAAD0712CC2CB3000D7C17 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ACFAAD0912CC2CB3000D7C17 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFAAD0A12CC2CB3000D7C17 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACFAAD0F12CC2CB3000D7C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ACFAAD1012CC2CB3000D7C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ACFAAD1212CC2CB3000D7C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRequestDownload-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRequestDownload-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACFAAD1312CC2CB3000D7C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRequestDownload-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRequestDownload-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFAACF012CC2CB2000D7C17 /* Build configuration list for PBXProject "SimpleRequestDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFAAD0F12CC2CB3000D7C17 /* Debug */,
+				ACFAAD1012CC2CB3000D7C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFAAD1112CC2CB3000D7C17 /* Build configuration list for PBXNativeTarget "SimpleRequestDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFAAD1212CC2CB3000D7C17 /* Debug */,
+				ACFAAD1312CC2CB3000D7C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFAACED12CC2CB2000D7C17 /* Project object */;
+}
